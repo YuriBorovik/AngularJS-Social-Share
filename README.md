@@ -8,7 +8,7 @@ Contains two directives and factory:
 
 Dependencies:
 -------------
-[VelocityJS](http://julian.com/research/velocity/)
+[VelocityJS](http://julian.com/research/velocity/)  
 [Material Design Icons](http://mterialdesignicons.com)
 
 Instal:
@@ -16,12 +16,12 @@ Instal:
 1. change default (`app.ui` or `app.components`) to your module name
 2. install dependencies
 3. Use as elements in your templates: 
-`<lt-like>
-    <lt-like-trigger></lt-like-trigger>
-    <lt-like-popup></lt-like-popup>
-</lt-like>`
-or 
-`<lt-share>
-    <lt-share-trigger></lt-like-trigger>
-    <lt-share-popup></lt-like-popup>
-</lt-share>`
+`<lt-like>`  
+    `<lt-like-trigger></lt-like-trigger>`  
+    `<lt-like-popup></lt-like-popup>`  
+`</lt-like>`  
+or   
+`<lt-share>`  
+`<lt-share-trigger></lt-like-trigger>`  
+`<lt-share-popup></lt-like-popup>`  
+`</lt-share>`  
