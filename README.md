@@ -15,7 +15,7 @@ Instal:
 =======
 1. change default (`app.ui` or `app.components`) to your module name
 2. install dependencies
-3. Use as elements in your templates: 
+3. Use as elements in your templates:  
 `<lt-like>`  
     `<lt-like-trigger></lt-like-trigger>`  
     `<lt-like-popup></lt-like-popup>`  
