@@ -1,0 +1,80 @@
+/*
+*   Created by: Yuri Borovik
+*   Email: yuri.borovik@gmail.com
+*   Date: 24.03.2016
+*   Time: 11:21
+*   
+*/
+.transition {
+	transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+	-moz-transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+	-ms-transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+	-o-transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+	-webkit-transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+	}
+
+
+.share-menu {
+	position: absolute;
+	border-radius: 2px;
+	background-color: #FFF;
+	text-align: left;
+	opacity: 0;
+	overflow: hidden;
+	box-shadow: 0 3px 1px -2px rgba(0,0,0,.14),0 2px 2px 0 rgba(0,0,0,.098),0 1px 5px 0 rgba(0,0,0,.084);
+	z-index: 2;
+	display: none;
+	}
+.share-menu-content {
+	padding: 8px 0;
+	-webkit-transition-property: opacity;
+	-moz-transition-property: opacity;
+	transition-property: opacity;
+	-webkit-transition-duration: .2s;
+	-moz-transition-duration: .2s;
+	transition-duration: .2s;
+	}
+.share-menu-trigger {
+	cursor: pointer;
+	opacity: 0.7;
+	.transition;
+	}
+.share-menu-trigger:hover {
+	opacity: 1;
+	}
+.share-menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	}
+.share-menu ul>li {
+	position: relative;
+	}
+lt-share {
+	width: 30px;
+	height: 30px;
+	}
+lt-share-trigger, lt-like-trigger {
+	width: 30px;
+	height: 30px;
+	display: block;
+	position: relative;
+	}
+lt-share .dropdown-link:not(.dropdown-link--is-header):hover,lt-like .dropdown-link:not(.dropdown-link--is-header):hover {
+	background-color: rgba(0,0,0,0.12);
+	}
+.vkontakte-box-icon a, .google-box-icon a, .facebook-box-icon a {
+	padding-left: 48px;
+	}
+.vkontakte-box-icon a {
+	background: url('assets/images/socialicons/vk-box.png') no-repeat 14px;
+	opacity:    0.7;
+	}
+.google-box-icon a {
+	background: url('assets/images/socialicons/google-plus-box.png') no-repeat 14px;
+	opacity:    0.7;
+	}
+.facebook-box-icon a {
+	background: url('assets/images/socialicons/facebook-box.png') no-repeat 14px;
+	opacity:    0.7;
+	}
