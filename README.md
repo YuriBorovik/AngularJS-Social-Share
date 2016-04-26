@@ -11,7 +11,7 @@ Dependencies:
 [VelocityJS](http://julian.com/research/velocity/)  
 [Material Design Icons](http://mterialdesignicons.com)
 
-Instal:
+Install:
 =======
 1. change default (`app.ui` or `app.components`) to your module name
 2. install dependencies
